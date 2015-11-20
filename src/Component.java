@@ -4,10 +4,8 @@ public class Component {
     private double price;
     private double weight;
 
-    public Component(String name, double price, double weight) {
-        this.name = name;
-        this.price = price;
-        this.weight = weight;
+    public Component() {
+
     }
 
     public String getName() {

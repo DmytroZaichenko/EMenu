@@ -3,5 +3,11 @@ public class Drink {
 
     public Drink() {
         drinks = new Product[100];
+        initDrinks();
+    }
+
+    public void initDrinks(){
+
+
     }
 }
